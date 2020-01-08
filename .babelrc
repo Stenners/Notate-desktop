@@ -1,0 +1,14 @@
+{
+  "presets": ["@babel/preset-react"],
+  "plugins": [
+    "babel-plugin-styled-components",
+    [
+      "prismjs",
+      {
+        "languages": ["markdown", "md"],
+        "theme": "tomorrow",
+        "css": true
+      }
+    ]
+  ]
+}
